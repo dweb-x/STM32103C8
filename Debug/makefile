@@ -13,6 +13,7 @@ RM := rm -rf
 -include system/src/diag/subdir.mk
 -include system/src/cortexm/subdir.mk
 -include system/src/cmsis/subdir.mk
+-include system/include/mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_GCC_ARM/subdir.mk
 -include src/subdir.mk
 -include subdir.mk
 -include objects.mk

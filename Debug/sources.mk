@@ -28,6 +28,7 @@ CPP_DEPS :=
 # Every subdirectory with source files must be described here
 SUBDIRS := \
 src \
+system/include/mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_GCC_ARM \
 system/src/cmsis \
 system/src/cortexm \
 system/src/diag \
